@@ -68,13 +68,13 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
   return (
     <div
       className={`w-full p-4 ${mode ? "bg-white" : "bg-[#2A2D2E]"
-        } transition-colors relative flex-row md:flex-cols flex items-center gap-4 pl-5 md:pl-10 pt-3 md:pt-6 z-[9999]`}
+        } transition-colors relative flex-row md:flex-col flex items-center gap-4 pl-5 md:pl-10 pt-3 md:pt-6 z-[9999]`}
     >
-      <div className="flex md:flex-cols flex-rows items-center gap-4">
+      <div className="flex md:flex-col flex-row items-center gap-4">
         <div className="relative w-full max-w-md">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-cols md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden border border-gray-300"
+            className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden border border-gray-300"
           >
             <input
               {...register("country")}
