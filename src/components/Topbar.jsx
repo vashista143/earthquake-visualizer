@@ -68,7 +68,7 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
   return (
     <div
       className={`w-full p-4 ${mode ? "bg-white" : "bg-[#2A2D2E]"
-        } transition-colors relative flex-row md:flex-cols flex items-center gap-4 pl-10 pt-6 z-[9999]`}
+        } transition-colors relative flex-row md:flex-cols flex items-center gap-4 pl-5 md:pl-10 pt-3 md:pt-6 z-[9999]`}
     >
       <div className="flex items-center gap-4">
         <div className="relative w-full max-w-md">
