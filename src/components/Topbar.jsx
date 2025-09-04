@@ -74,7 +74,7 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
         <div className="relative w-full max-w-md">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden border border-gray-300"
+            className="flex items-center bg-white rounded-lg shadow-md overflow-hidden border border-gray-300"
           >
             <input
               {...register("country")}
