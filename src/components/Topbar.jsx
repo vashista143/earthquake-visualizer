@@ -69,11 +69,8 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
     <div
   className={`w-full p-4 ${mode ? "bg-white" : "bg-[#2A2D2E]"}
     transition-colors relative flex flex-col md:flex-row items-start md:items-center gap-4 pl-5 md:pl-10 pt-3 md:pt-6 z-[9999]`}
->
-  {/* Left Section (Search + Magnitude stacked on mobile) */}
-  <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
+>  <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full">
     
-    {/* Search Box */}
     <div className="relative w-full md:max-w-md">
       <form
         onSubmit={handleSubmit(onSubmit)}
@@ -108,7 +105,6 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
       )}
     </div>
 
-    {/* Magnitude Filter */}
     <div className="flex items-center bg-white rounded-lg shadow-md border border-gray-300 px-3 py-2 w-full md:w-auto">
       <span className="text-gray-600 mr-2">Magnitude:</span>
       <input
@@ -130,7 +126,6 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
     </div>
   </div>
 
-  {/* Dark/Light Mode Button */}
   <div
     className={`ml-auto md:ml-0 cursor-pointer md:mr-10 flex items-center justify-center w-10 h-10 shadow-md ${mode ? "bg-white text-black" : "bg-white text-white"}`}
     onClick={handleclick}
