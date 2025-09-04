@@ -127,7 +127,7 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
   </div>
 
   <div
-    className={`ml-auto md:ml-0 cursor-pointer md:mr-10 flex items-center justify-center w-5 md:w-10 h-7 md:h-10 shadow-md ${mode ? "bg-white text-black" : "bg-white text-white"}`}
+    className={`ml-auto md:ml-0 cursor-pointer md:mr-10 flex items-center justify-center w-7 md:w-10 h-7 md:h-10 shadow-md ${mode ? "bg-white text-black" : "bg-white text-white"}`}
     onClick={handleclick}
   >
     {mode ? (
