@@ -105,7 +105,7 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
       )}
     </div>
 
-    <div className="flex items-center bg-white rounded-lg shadow-md border border-gray-300 px-1 md:px-3 py-1 md:py-2 w-[60%] md:w-auto">
+    <div className="flex items-center bg-white rounded-lg shadow-md border border-gray-300 px-1 md:px-3 py-1 md:py-2 w-[80%] md:w-auto">
       <span className="text-gray-600 mr-2">Magnitude:</span>
       <input
         type="number"
