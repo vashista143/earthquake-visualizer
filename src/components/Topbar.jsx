@@ -105,7 +105,7 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
       )}
     </div>
 
-    <div className="flex items-center bg-white rounded-lg shadow-md border border-gray-300 px-1 md:px-3 py-1 md:py-2 w-full md:w-auto">
+    <div className="flex items-center bg-white rounded-lg shadow-md border border-gray-300 px-1 md:px-3 py-1 md:py-2 w-[60%] md:w-auto">
       <span className="text-gray-600 mr-2">Magnitude:</span>
       <input
         type="number"
@@ -127,7 +127,7 @@ const Topbar = ({ setsearchaddress, onFilter, setMinMag, setMaxMag, minMag, maxM
   </div>
 
   <div
-    className={`ml-auto md:ml-0 cursor-pointer md:mr-10 flex items-center justify-center w-7 md:w-10 h-7 md:h-10 shadow-md ${mode ? "bg-white text-black" : "bg-white text-white"}`}
+    className={`ml-auto md:ml-0 cursor-pointer md:mr-10 flex items-center justify-center w-10 h-10 shadow-md ${mode ? "bg-white text-black" : "bg-white text-white"}`}
     onClick={handleclick}
   >
     {mode ? (
